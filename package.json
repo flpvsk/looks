@@ -1,0 +1,25 @@
+{
+  "name": "looks",
+  "version": "0.0.0",
+  "description": "JavaScript code reformatter.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:filipovskii/looks.git"
+  },
+  "keywords": [
+    "javascript",
+    "lint",
+    "format",
+    "codestyle"
+  ],
+  "author": "filipovsky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/filipovskii/looks/issues"
+  },
+  "homepage": "https://github.com/filipovskii/looks"
+}
