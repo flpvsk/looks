@@ -36,11 +36,12 @@ y = function() {
 
 ### Main Idea
 
-**look** allows programmers to implement *codestyles*.
+**looks** allows programmers to implement *codestyles*.
 
 *Codestyle* is a combination of *transformer* and *printer*.
 
-*Transformer* does recast *ast* transformations.
+*Transformer* does [recast](https://github.com/benjamn/recast) *ast*
+transformations.
 
 *Printer* prints *ast*.
 
