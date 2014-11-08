@@ -1,10 +1,10 @@
 {
   "name": "looks",
   "version": "0.0.0",
-  "description": "JavaScript code reformatter.",
+  "description": "Code reformatting tool for JavaScript.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --recursive"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/filipovskii/looks/issues"
   },
-  "homepage": "https://github.com/filipovskii/looks"
+  "homepage": "https://github.com/filipovskii/looks",
+  "dependencies": {
+    "cls": "^0.1.5",
+    "debug": "^2.0.0",
+    "esprima": "^1.2.2",
+    "jstransform": "^6.3.2",
+    "lodash": "^2.4.1",
+    "recast": "^0.7.2"
+  }
 }
