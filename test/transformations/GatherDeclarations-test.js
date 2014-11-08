@@ -1,3 +1,5 @@
+'use strict';
+
 var transformersPath = '../../lib/transformers',
     recast = require('recast'),
     assert = require('assert'),

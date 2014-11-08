@@ -1,4 +1,5 @@
 'use strict';
+
 var recast = require('recast'),
     Printer = require('recast/lib/printer').Printer,
     linesModule = require('recast/lib/lines'),
