@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 'use strict';
 
 var path = require('path'),
@@ -10,7 +12,7 @@ parseArgs = function parseArgs(argv) {
   var start, style, file;
 
   argv.forEach(function(arg, i) {
-    if (path.basename(arg) === 'looks.js') {
+    if (path.basename(arg) === 'looks') {
       start = i;
     }
   });
