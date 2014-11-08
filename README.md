@@ -1,4 +1,4 @@
-# looks.js
+# looks
 
 ### Code reformatting tool for JavaScript
 
@@ -10,6 +10,13 @@ var y,x =1;
 y=function (){
   return (13+1 ) / 2
 }
+```
+
+
+*Run:*
+
+```
+./bin/looks airbnb index.js
 ```
 
 
